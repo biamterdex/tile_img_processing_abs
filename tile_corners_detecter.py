@@ -126,7 +126,7 @@ def process_folder(input_folder, output_folder):
     os.makedirs(output_folder, exist_ok=True)
 
     # Supported image extensions
-    image_extensions = ('*.jpg', '*.jpeg', '*.png', '*.bmp', '*.tif', '*.tiff')
+    image_extensions = ('*.jpg', '*.jpeg', '*.png')
 
     # Get a list of all image files in the input folder
     image_files = []
